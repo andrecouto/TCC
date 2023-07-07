@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "tag": "carteirinha",
+      "patterns": [
+        "Como faço para tirar a carteirinha?",
+        "Carteirinha para meia entrada, como posso tirar?",
+        "Como faço pra pagar meia entrada no cinema?",
+        "Carteira de estudante",
+        "Carteirinha estudantil"
+      ],
+      "responses": [
+        "Para retirar a carteirinha, o estudante deve entrar no sistema acadêmico(coruja): https://www.faeterj-rio.edu.br/coruja/autenticar/login_controle.php e selecionar o campo emissão de carteirinha."
+      ]
+    },
+    {
+      "tag": "Inscrever",
+      "patterns":[
+        "Como faço para me inscrever em uma disciplina?",
+        "Como faço para me inscrever em uma turma?",
+        "Como faço para me inscrever em uma matéria?",
+        "Quero me inscrever em disciplinas, como faço?",
+        "Quero me inscrever em uma matéria, como faço?",
+        "Quero me inscrever em uma turma, como faço?",
+        "Onde eu me inscrevo nas turmas?",
+        "inscrição em materia",
+        "inscrição em disciplina",
+        "inscrição em turma"
+      ],
+      "responses":[
+        "Para se inscrever em uma disciplina, o estudante deve entrar no sistema acadêmico(coruja): https://www.faeterj-rio.edu.br/coruja/autenticar/login_controle.php e selecionar o campo Inscrição->Solicitar Inscrição, durante o período de inscrições em disciplinas."
+      ]
+    },
+    {
+      "tag": "Reprovar",
+      "patterns":[
+        "Quantas vezes posso reprovar uma disciplina?",
+        "Quantas vezes posso reprovar uma matéria?",
+        "Quantas vezes posso reprovar antes ser expulso da instituição?",
+        "Reprovações levam a expulsão?",
+        "É possível reprovar quantas vezes?"
+      ],
+      "responses":[
+        "O estudante pode reprovar duas(2) vezes uma mesma disciplina. Caso seja reprovado uma terceira vez, o mesmo será desligado da instituição por causa da integralização do curso."
+      ]
+    },
+    {
+      "tag": "Falta",
+      "patterns":[
+        "Quantas vezes posso faltar uma disciplina sem que seja reprovado?",
+        "Quantas vezes posso faltar uma matéria sem que seja reprovado?",
+        "Quantas vezes posso faltar uma turma sem que seja reprovado?",
+        "Reprovar por falta.",
+        "Faltas reprovam?",
+        "Qual o limite de faltas antes de ser reprovado?",
+        "Qual a porcentagem de faltas um aluno pode ter sem que seja reprovado por falta?"
+      ],
+      "responses":[
+        "O estudante pode ter até vinte e cinco porcento(25%) de faltas em uma disciplina. Mais faltas que essa quantidade, o aluno será reprovado por falta."
+      ]
+    },
+    {
+      "tag": "Integralizar",
+      "patterns":[
+        "Posso terminar o curso em quanto tempo?",
+        "Em quanto tempo posso terminar o curso?",
+        "Qual o máximo de tempo que um estudante pode ficar matriculado?",
+        "Quantos anos posso ficar na instituição?",
+        "Tempo máximo"
+      ],
+      "responses":[
+        "O estudante poderá permanecer matriculado à instituição por até duas(2) vezes o período normal do curso(dois anos e meio), totalizando cinco(5) anos no total."
+      ]
+    },
+    {
+      "tag": "Estágio",
+      "patterns":[
+        "O estágio é obrigatório?",
+        "Como faço para registrar um estágio?",
+        "Estágio como faço",
+        "Estágio, como fazer",
+        "Preciso fazer estágio",
+        "É obrigatório fazer estágio?"
+      ],
+      "responses":[
+        "O estágio é obrigatório para insgressantes na instituição até 2017.2, após esse período não é mais obrigatório. Para fazer um estágio envie um chamado na central de atendimento: https://www.faeterj-rio.edu.br/central/ clicando em 'Enviar um ticket'."
+      ]
+    },
+    {
+      "tag": "Central",
+      "patterns":[
+        "Como faço pra enviar um chamado?",
+        "Como faço para pedir algo da instituição?",
+        "Solicitar da instituição",
+        "Como acesso a central de atendimento?",
+        "Central de atendimento",
+        "Chamado central",
+        "Checar chamado"
+      ],
+      "responses":[
+        "Para acessar a central de atendimento para fazer um chamado ou verificar um chamado já existente, acesse a central de atendimento: https://www.faeterj-rio.edu.br/central/ . O antigo site da central de atendimento não está sendo mais utilizada."
+      ]
+    },
+    {
+      "tag": "RioCard",
+      "patterns":[
+        "Tenho direito ao riocard?",
+        "Como saber se tenho direito a usar transporte público gratuitamente?",
+        "RioCard",
+        "Onibús gratuito"
+      ],
+      "responses":[
+        "Somente os estudantes que possuem residência no município do Rio de Janeiro e comprovem estarem em situação de hipossufiência econômica terão direito ao RioCard. Para solicitar o RioCard o estudante deve agendar no site do RioCard e depois pedir uma declaração da instituição."
+      ]
+    },
+    {
+      "tag": "TCC",
+      "patterns":[
+        "Instituição pede TCC?",
+        "Preciso fazer tcc ao final do curso?",
+        "Como faço o tcc?",
+        "tcc é importante?",
+        "Trabalho de conclusão de curso"
+      ],
+      "responses":[
+        "É obrigatório fazer o trabalho de conclusão de curso. Para isso o estudante deve se inscrever na turma de 5TFC do respectivo orientador docente, que já tenha combinado de ser seu orientador, no sistema acadêmico: https://www.faeterj-rio.edu.br/coruja/autenticar/login_controle.php em Inscrição->Solicitar Inscrição."
+      ]
+    },
+    {
+      "tag": "Grau",
+      "patterns":[
+        "Direito a colação de grau?",
+        "Quando tenho direito a terminar o curso?",
+        "O que preciso para a colação de grau?",
+        "Colação de grau"
+      ],
+      "responses":[
+        "Além de obter exito com o Trabalho de conclusão de curso(tcc), o estudante deve ter completado todas as horas de atividade complementar. Caso o estudante tenha ingressado na instituição até 2017.2, este deverá também cumprir o estágio obrigatório. "
+      ]
+    },
+    {
+      "tag": "Trancar",
+      "patterns":[
+        "Quantos períodos posso trancar?",
+        "Posso trancar a faculdade por quanto tempo?",
+        "Posso trancar quantas vezes?",
+        "trancar matrícula"
+      ],
+      "responses":[
+        "É possível solicitar um(1) trancamento de matrícula, renovável por mais um(1) período. Após isso, o estudante deve continuar o curso."
+      ]
+    },
+    {
+      "tag": "disciplinas",
+      "patterns":[
+        "Qual o número máximo de materias que posso cursar no período?",
+        "Quantas materias posso cursar ao mesmo tempo?",
+        "Qual o número mínimo de materias pra se cursar em um período?",
+        "Número mínimo de turmas pra cursar no semestre",
+        "Qual o número mínimo e máximo de disciplinas que posso cursar na instituição?"
+      ],
+      "responses":[
+        "O número mínimo de disciplinas que um aluno pode ser inscrito são três(3). O número máximo de disciplinas que um estudante pode cursar ao mesmo tempo são oito(8)."
+      ]
+    },
+    {
+      "tag": "Cotista",
+      "patterns":[
+        "Quando sai a bolsa de cotista?",
+        "Tenho direito a bolsa de cotista?",
+        "Sou cotista, quando sai a bolsa?",
+        "O que preciso para ter direito a bolsa de cotista?"
+      ],
+      "responses":[
+        "Com relação á bolsa de cotista, somente o governo do Estado poderá responder sua pergunta."
+      ]
+    },
+    {
+      "tag": "ingresso",
+      "patterns":[
+        "Como posso entrar na instituição?",
+        "Quais são as formas de ingresso na instituição?",
+        "Como posso estudar ai?",
+        "Vocês analisam nota do Sisu?",
+        "Como ingressar?"
+      ],
+      "responses":[
+        "Todas as perguntas sobre a forma de ingresso na instituição devem ser feitas por email para a secretaria acadêmica: sec_acad@faeterj-rio.edu.br ."
+      ]
+    }
+    
+  ]
+}
